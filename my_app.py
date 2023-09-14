@@ -12,7 +12,7 @@ html_temp = """
 </div>"""
 st.markdown(html_temp, unsafe_allow_html=True)
 
-satisfaction_level = st.sidebar.slider("What is your satisfaction level:",  min_value=0, max_value=1, value=0.5, step=0.1)
+satisfaction_level = st.sidebar.slider("What is your satisfaction level:",  (0,1))
 last_evaluation = st.sidebar.slider("What is your last evaluation:", min_value=0, max_value=1, value=0.5, step=0.1)
 number_project = st.sidebar.selectbox("What is your number of project:", (2,3,4,5,6,7))
 average_montly_hours = st.sidebar.slider("What is your average montly hours?", min_value=96, max_value=310, value=150,step=7)
