@@ -51,4 +51,4 @@ st.subheader("Press predict if configuration is okay")
 
 if st.button("Predict"):
     prediction = de_05_chur_model.predict(df_scal)
-    st.success("The estimated decision based on our model is".format(prediction))
+    st.success("The estimated decision based on our model is".format(prediction[0]))
