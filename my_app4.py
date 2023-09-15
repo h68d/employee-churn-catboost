@@ -35,17 +35,17 @@ my_dict = {
     "Department of the employee":Department of the employee, 
     "Employee salary level":Employee salary level"}
 
-my_dict2 = {
-    "Satisfaction level": satisfaction_level,
-    "Last evaluation": last_evaluation,
-    "Number of project": number_project,
-    "Average montly work hours": average_montly_hours,
-    'Time spend in company':time_spend_company,
-    "Work accident": work_accident, 
-    'Promotion in last 5 years':promotion_last_5years,
-    "Department": department, 
-    "Salary": salary
-    }
+# my_dict2 = {
+#     "Satisfaction level": satisfaction_level,
+#     "Last evaluation": last_evaluation,
+#     "Number of project": number_project,
+#     "Average montly work hours": average_montly_hours,
+#     'Time spend in company':time_spend_company,
+#     "Work accident": work_accident, 
+#     'Promotion in last 5 years':promotion_last_5years,
+#     "Department": department, 
+#     "Salary": salary
+#     }
 
 df2 = pd.DataFrame.from_dict([my_dict2])
 st.write("The configuration of your selections is below") 
