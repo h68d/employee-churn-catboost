@@ -50,7 +50,7 @@ my_dict = {
 
 # df2 = pd.DataFrame.from_dict([my_dict2])
 st.write("The configuration of your selections is below") 
-st.table(df2)
+# st.table(df2)
 
 
 df = pd.DataFrame.from_dict([my_dict])
