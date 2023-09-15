@@ -25,8 +25,8 @@ promotion_last_5years = st.sidebar.selectbox("Did the employee had promotion in 
 
 
 my_dict = {
-    "Job satisfaction level":Job satisfaction level,
-    "Total time employee spent in the organization":Total time employee spent in the organization,
+    "Job satisfaction":Job satisfaction,
+    "Total time employee spent":Total time employee spent,
     "Last employee performance evaluation grade":Last employee performance evaluation grade,
     "Number of project given to the employee":Number of project given to the employee,
     "Average montly working hours of the employee":Average montly working hours of the employee,
