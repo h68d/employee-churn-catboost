@@ -48,7 +48,7 @@ my_dict = {
 #     "Salary": salary
 #     }
 
-df2 = pd.DataFrame.from_dict([my_dict2])
+# df2 = pd.DataFrame.from_dict([my_dict2])
 st.write("The configuration of your selections is below") 
 st.table(df2)
 
