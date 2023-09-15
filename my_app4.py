@@ -24,8 +24,9 @@ work_accident = st.sidebar.selectbox("Did the employee had any work accidents?:"
 promotion_last_5years = st.sidebar.selectbox("Did the employee had promotion in the last 5 years?:",(0,1))
 
 
-my_dict = {"job satisfaction":job satisfaction,
-    "Total time employee spent":Total time employee spent,
+my_dict = {
+    "Time employee spent":Time employee spent,
+    "job satisfaction":job satisfaction,
     "Last employee performance evaluation grade":Last employee performance evaluation grade,
     "Number of project given to the employee":Number of project given to the employee,
     "Average montly working hours of the employee":Average montly working hours of the employee,
